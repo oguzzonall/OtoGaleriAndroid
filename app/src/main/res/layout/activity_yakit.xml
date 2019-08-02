@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="#F1BC05"
+    android:orientation="vertical"
+    tools:context=".Yakit">
+
+    <ProgressBar
+        android:id="@+id/progressYakit"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/yakit_view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:text="Yakıt Tüketimi Bilgilerini Giriniz"
+                android:textColor="#203040"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/yakitTipiBilgiEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Yakıt Tipini Giriniz"
+                android:textColorHint="#203040" />
+
+            <EditText
+                android:id="@+id/ortalamaYakitEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ortalama Yakıt Bilgisi Giriniz"
+                android:textColorHint="#203040" />
+
+            // id depoHacmiSüratEditText alttaki
+
+            <EditText
+                android:id="@+id/depoHacmiEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Depo Hacmi Giriniz"
+                android:textColorHint="#203040" />
+
+            <Button
+                android:id="@+id/yakitTüketimBilgisiButon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/menu_button_back"
+                android:text="İlan ver" />
+
+            <Button
+                android:id="@+id/yakitTüketimBilgisiButonGeri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/menu_button_back"
+                android:text="Geri" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

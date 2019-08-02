@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="#EEEEEE"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/favoriIlanlarIlanResim"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1.1" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/favoriIlanlarIlanBaslik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Deneme"
+            android:textColor="#0F3057"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/favoriIlanlarIlanFiyat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="right|bottom"
+            android:text="Deneme"
+            android:textColor="#0F3057"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/favoriIlanlarIlanAdres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/favoriIlanlarIlanFiyat"
+            android:text="Deneme"
+            android:textColor="#0F3057"
+            android:textSize="10dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

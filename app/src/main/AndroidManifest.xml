@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.fbtotogaleriuygulamasi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/caricon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/caricon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".DogrulamaActivity"
+            android:label="@string/title_activity_dogrulama" />
+        <activity android:name=".AdresBilgileri" />
+        <activity android:name=".AracBilgileri" />
+        <activity android:name=".IlanTuru" />
+        <activity android:name=".MotorPerformans" />
+        <activity android:name=".Yakit" />
+        <activity android:name=".IlanResimler" />
+        <activity android:name=".IlanBilgileri" />
+        <activity android:name=".Ilanlarim" />
+        <activity android:name=".Ilanlar" />
+        <activity android:name=".IlanDetay" />
+        <activity android:name=".FavoriIlanlarim" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".MesajlarActivity"></activity>
+    </application>
+
+</manifest>

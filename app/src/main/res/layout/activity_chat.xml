@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.asus.fbtotogaleriuygulamasi.ChatActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_above="@+id/LayoutLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:id="@+id/LayoutLinear"
+        android:background="@color/design_default_color_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/mesajEditText"
+            android:layout_width="0dp"
+            android:textColor="#000000"
+            android:hint="Mesaj Yaz..."
+            android:layout_height="wrap_content"
+            android:layout_weight="8" />
+
+        <Button
+            android:id="@+id/sendMesajButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ic_send_black_24dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1BC05"
+    android:orientation="vertical"
+    tools:context=".MotorPerformans">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="Motor ve Performans Bilgilerini Giriniz"
+        android:textColor="#203040"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    
+    <EditText
+        android:id="@+id/motorTipiBilgiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Motor Tipini Giriniz"
+        android:textColorHint="#203040"/>
+    <EditText
+        android:id="@+id/motorHacmiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Motor Hacmi Giriniz"
+        android:inputType="number"
+        android:textColorHint="#203040"/>
+    <EditText
+        android:id="@+id/azamiSüratEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Azami Sürat Giriniz"
+        android:textColorHint="#203040"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/motorBilgisiButon"
+        android:background="@drawable/menu_button_back"
+        android:text="ileri"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/motorBilgisiButonGeri"
+        android:background="@drawable/menu_button_back"
+        android:text="Geri"/>
+
+
+</LinearLayout>

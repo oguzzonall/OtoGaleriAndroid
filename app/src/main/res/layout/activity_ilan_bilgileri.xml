@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1BC05"
+    android:orientation="vertical"
+    tools:context=".MotorPerformans">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="İlan Bilgilerini Giriniz"
+        android:textColor="#203040"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ilanBaslikEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İlan Başlığı Giriniz"
+        android:textColorHint="#203040" />
+
+    <EditText
+        android:id="@+id/ilanAciklamaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İlan Açıklaması Giriniz"
+        android:textColorHint="#203040" />
+
+    <EditText
+        android:id="@+id/ilanFiyatEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İlan Fiyatını Giriniz"
+        android:inputType="number"
+        android:textColorHint="#203040" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/ilanBilgisiButon"
+        android:background="@drawable/menu_button_back"
+        android:text="ileri"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/ilanBilgisiButonGeri"
+        android:background="@drawable/menu_button_back"
+        android:text="Geri"/>
+</LinearLayout>

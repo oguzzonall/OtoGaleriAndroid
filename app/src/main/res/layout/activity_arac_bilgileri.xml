@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1BC05"
+    android:orientation="vertical"
+    tools:context=".AracBilgileri">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="Araç Bilgilerini Giriniz"
+        android:textColor="#203040"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/markaBilgiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Araç Markasını Giriniz"
+        android:textColorHint="#203040" />
+
+    <EditText
+        android:id="@+id/seriBilgiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Araç Serisini Giriniz"
+        android:textColorHint="#203040" />
+
+    <EditText
+        android:id="@+id/modelBilgiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Araç Modelini Giriniz"
+        android:textColorHint="#203040" />
+
+    <EditText
+        android:id="@+id/yilBilgiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Araç Yılını Giriniz"
+        android:inputType="number"
+        android:textColorHint="#203040" />
+
+    <EditText
+        android:id="@+id/kmBilgiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Araç KM'si Giriniz"
+        android:textColorHint="#203040"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/aracBilgisiButon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/menu_button_back"
+        android:text="ileri" />
+    <Button
+        android:id="@+id/aracBilgisiButonGeri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/menu_button_back"
+        android:text="Geri" />
+
+</LinearLayout>

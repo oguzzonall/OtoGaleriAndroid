@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ilanlarid"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="İLANLAR" />
+        <item
+            android:id="@+id/ilanverid"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="İLAN VER" />
+        <item
+            android:id="@+id/favoriilanid"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="FAVORİ İLAN" />
+        <item
+            android:id="@+id/iletisimbilgileriid"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="İLETİSİM BİLGİLERİ" />
+        <item
+            android:id="@+id/mesajlarimid"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="MESAJLARIM" />
+        <item
+            android:id="@+id/ilanlarimid"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="İLANLARIM" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/cikisYap"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Çıkış Yap" />
+        </menu>
+    </item>
+
+</menu>
